@@ -2,6 +2,8 @@ package net.glitch.starapi;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeModifier;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
@@ -48,6 +50,13 @@ public class ItemBuilder {
         return this;
     }
 
+    public ItemBuilder attribute(Attribute attribute, AttributeModifier modifier) {
+        ItemMeta itemMeta = getItemMeta();
+        itemMeta.addAttributeModifier(attribute, modifier);
+        this.itemStack.setItemMeta(itemMeta);
+        return this;
+    }
+
     public ItemBuilder flags(ItemFlag... flags) {
         ItemMeta itemMeta = getItemMeta();
         itemMeta.addItemFlags(flags);
@@ -72,5 +81,3 @@ public class ItemBuilder {
         return this.itemStack;
     }
 }
-
-

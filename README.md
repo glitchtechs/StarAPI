@@ -11,7 +11,8 @@ I understand the core values of coding minecraft plugins and how frustrating it 
 * Message Utilities
 * Timers
 * Rank Builder & Manager (This system is not 1000% done yet, and might be removed down the line)
-* Item Builder
+* Item Builder **UPDATED!**
+* Armour Builder **NEW!**
 * Message Builder
 * Mob Builder
 * Scoreboard Builder

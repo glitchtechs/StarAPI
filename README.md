@@ -24,4 +24,5 @@ I understand the core values of coding minecraft plugins and how frustrating it 
 All the features above are extremely simple to use just head over to the Wiki tab to learn how to properly use everything and start creating plugins with efficiency!
 
 Support: https://discord.gg/MGREcqdS
+
 Documentation: https://glitchtechs.gitbook.io/galaxy/

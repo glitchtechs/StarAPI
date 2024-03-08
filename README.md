@@ -7,12 +7,11 @@ Don't know how to make GUIs properly? we got you covered!
 
 I understand the core values of coding minecraft plugins and how frustrating it can be to get stuff done right so with StarAPI you can do all of the following below!
 
-* GUI Utilities
+* GUI Utilities **UPDATED!**
 * Message Utilities
 * Timers
-* Rank Builder & Manager (This system is not 1000% done yet, and might be removed down the line)
-* Item Builder **UPDATED!**
-* Armour Builder **NEW!**
+* Item Builder 
+* Armour Builder 
 * Message Builder
 * Mob Builder
 * Scoreboard Builder

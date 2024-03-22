@@ -28,7 +28,7 @@ public class ScoreboardBuilder {
         this.plugin = plugin;
     }
 
-    public ScoreboardBuilder addLine(int score, String text) {
+    public ScoreboardBuilder setLine(int score, String text) {
         this.lines.put(score, text);
         return this;
     }

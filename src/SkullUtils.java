@@ -79,6 +79,4 @@ public class SkullUtils {
         skullStack.setItemMeta(skullMeta);
         player.getInventory().addItem(skullStack);
     }
-
-
 }

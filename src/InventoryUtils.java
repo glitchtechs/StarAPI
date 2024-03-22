@@ -1,7 +1,6 @@
 package net.glitchtechs.starapi;
 
 import java.util.Arrays;
-
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.Inventory;
